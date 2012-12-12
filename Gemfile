@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
 gem 'sinatra', '1.1.0'
-gem 'thin'
-
 gem 'rails', '3.0.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :developement do
-gem 'sqlite3'
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
 end
 
 # Use unicorn as the web server
