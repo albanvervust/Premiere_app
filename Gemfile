@@ -5,7 +5,10 @@ gem 'rails', '3.0.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :development, :test do
 gem 'sqlite3-ruby', :require => 'sqlite3'
+end
+
 gem "json", "~> 1.7.5"
 
 gem 'sqlite3',"1.3.6", :group => [:development, :test]
