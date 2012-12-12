@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+gem 'sinatra', '1.1.0'
+gem 'thin'
+
 gem 'rails', '3.0.11'
 
 # Bundle edge Rails instead:
