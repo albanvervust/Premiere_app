@@ -91,6 +91,6 @@ DEPENDENCIES
   pg
   rails (= 3.0.11)
   sinatra (= 1.1.0)
-  sqlite3
+  sqlite3 (= 1.3.6)
   sqlite3-ruby
   thin
